@@ -1,0 +1,61 @@
+{
+  "name": "psaug",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "8.11.3"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "node server.js",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^2.4.6",
+    "css-loader": "^0.28.11",
+    "d3": "^5.5.0",
+    "d3-tooltip-box": "0.0.7",
+    "express": "^4.16.3",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "slick-carousel": "^1.8.1",
+    "vue": "^2.5.16",
+    "vue-analytics": "^5.12.3",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-cookie": "^1.1.4",
+    "vue-headful": "^2.0.1",
+    "vue2-animate": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Gastromond';
+    src: url('-GastromondItalic.woff2') format('woff2'),
+        url('-GastromondItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Chronicle Text G1';
+    src: url('ChronicleTextG1-Roman.woff2') format('woff2'),
+        url('ChronicleTextG1-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Bold.woff2') format('woff2'),
+        url('Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carbon';
+    src: url('8f0da82695a968689a6861a02a555c23a3f953374b30ac7e6f93b66c51e72c3.woff2') format('woff2'),
+        url('8f0da82695a968689a6861a02a555c23a3f953374b30ac7e6f93b66c51e72c3.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
